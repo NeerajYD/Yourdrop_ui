@@ -1,0 +1,17 @@
+header{padding: 20px 0;}
+.brand{max-width: 210px;z-index: 99999;position: relative;}
+.you-logo{width:200px;}
+.navbar-toggle{background: #f6f577;}
+.navbar-toggle .icon-bar{background: #1270fc;}
+.navbar{ min-height: 0; margin: 0;}
+nav ul{ margin: 10px 0 0 0; padding: 0; list-style: none; text-align: right;}
+nav ul li{ display: inline-block; padding: 0 5px;}
+nav ul li a{font-family: 'Titillium Web', sans-serif; font-size: 16px; font-stretch: normal;  font-style: normal; line-height: 1.5; letter-spacing: normal; text-align: left;color: #707070; padding: 5px 11px; width: 160px;display: inline-block;text-align: center;}
+nav ul li a, nav ul li a.active{ color: #ffffff; background: #e7305b; text-decoration: none; border-radius: 6px;transition: all .3s ease-in;} 
+nav ul li a:hover, nav ul li a:focus{text-decoration: none;color: #e7305b;background: transparent;box-shadow:inset 0 0 0 2px #e7305b;}
+.header-shadow{background: #fff;position: fixed;width: 100%;z-index: 100;top: 0;box-shadow: 0 0 3px #ccc;}
+@media only screen and (max-width:480px){
+nav ul li{display: block;}
+nav ul li a{width:100%;}
+img.banner-guy2,img.banner-guy{display: none;}
+}
